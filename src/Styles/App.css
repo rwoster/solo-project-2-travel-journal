@@ -1,0 +1,88 @@
+.App {
+    width: 70%;
+    height: 100%;
+    margin: 2em auto;
+}
+
+/* TYPOGRAPHY */
+h1 {
+    font-size: 0.9375rem;
+}
+h2 {
+    font-size: 0.625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 1.5625rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+h4 {
+    font-size: 0.625rem;
+    font-weight: 700;
+}
+p {
+    font-size: 0.625rem;
+    line-height: 1.75em;
+}
+a {
+    font-size: 0.625rem;
+    color: orangered;
+    opacity: 0.5;
+}
+
+.App-header {
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-block: 21px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.App-header > img {
+    margin-right: 10px;
+}
+
+.Entries {
+    background-color: #eee;
+    padding-block: 2.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Entry--container {
+    width: 85%;
+    margin: 0 auto;
+    padding-block: 1.3em;
+    color: #333;
+    display: flex;
+}
+.Entry--container > img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #777;
+}
+
+.Entry--body {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.Entry--body_header {
+    display: flex;
+    align-items: center;
+}
+.Entry--body_header > img {
+    margin-right: 5px;
+}
+.Entry--body_header > a {
+    margin-left: 25px;
+}
